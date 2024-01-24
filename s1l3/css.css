@@ -1,0 +1,58 @@
+/* style.css */
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.riduci-del-50 {
+    transform: scale(0.5);
+}
+
+.riduci-del-20 {
+    transform: scale(0.8);
+    padding: none;
+}
+
+.rettangolo-giallo {
+    width: 100%; /* Larghezza del rettangolo */
+    height: 30px; /* Altezza del rettangolo */
+    background-color: rgb(246, 246, 198);
+    border-top: 1px solid #ffd877 ;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    width: 30%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: left; /* Allinea il testo a sinistra all'interno dei paragrafi */
+}
+
+.callToAction {
+    padding-left: 20px;
+    border-left: 1px solid #ffd877;
+} 
+
+.link {
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+hr {
+    border-color: #107777; /* Cambia il colore dell'hr a rosso */
+}
+
+ul {
+    text-align: left; /* Allinea il testo a sinistra */
+}
+
+
+ol {
+    text-align: left; /* Allinea il testo a sinistra */
+}
