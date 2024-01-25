@@ -1,0 +1,129 @@
+/* IMPOSTAZIONI GENERALI */
+
+body {
+    background-image: url('assets/img/sfondo.png');
+    background-size: cover; /* Imposta la dimensione dell'immagine in modo che copra l'intero elemento body */
+    background-position: center; /* Imposta la posizione dell'immagine al centro */
+                       
+}
+
+.bianco {
+    color: rgb(255, 255, 255); /* Cambia il colore a tuo piacimento */
+}
+
+.viola {
+    color: rgb(191, 41, 196); /* Cambia il colore a tuo piacimento */
+}
+
+.grigiochiaro {
+    color: rgb(130, 130, 130); /* Cambia il colore a tuo piacimento */
+}
+
+.ombra {
+    box-shadow: 0 4px 8px rgb(71, 71, 71); /* Modifica i valori a tuo piacimento */
+}
+
+.testo-ingrandito {
+    font-size: 1.5em; /* Aumenta la dimensione del testo a tuo piacimento */
+}
+
+.testo-moltoingrandito {
+    font-size: 3.5em; /* Aumenta la dimensione del testo a tuo piacimento */
+}
+
+p {
+    padding: 0px;
+    margin: 0px /* Modifica il valore a tuo piacimento */
+}
+
+
+.centrato{
+    text-align: center;
+}
+
+.contenitore-centrato {
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.header {
+    background-color: #3498db; /* Colore azzurro di esempio */
+    padding: 40px;
+    border-width: 40px;
+    margin: 40px;
+    text-align: center;
+} 
+
+.main {
+    background-color: #ffffff; /* Colore azzurro di esempio */
+    padding: 40px;
+    border-width: 40px;
+    margin: 40px;
+    text-align: left;
+} 
+
+.spazio-vuoto {
+    height: 30px; /* Altezza dello spazio (modifica a tuo piacimento) */
+    width: 100%; /* Larghezza dello spazio (può essere personalizzato) */
+    background-color: #ffffff; /* Colore di sfondo dello spazio (modifica a tuo piacimento) */
+}
+
+.evidenzia-testo {
+    background-color: rgb(194, 194, 194);
+    display: inline-block;
+            padding: 3px 5px; /* Aggiunge spaziatura interna al rettangolo (modifica a tuo piacimento) */
+            border: 1px solid #060606; /* Colore e spessore del bordo (modifica a tuo piacimento) */
+            border-radius: 7px;
+     /* Colore di evidenziazione (modifica a tuo piacimento) */
+}
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Unisce i bordi delle celle */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #3498db; /* Aggiunge spaziatura sotto la tabella (modifica a tuo piacimento) */
+}
+
+/* Stile per le celle della tabella */
+td {
+    padding: 10px; /* Aggiunge spaziatura interna alle celle (modifica a tuo piacimento) */
+    border: 1px solid #ddd;
+     /* Colore del bordo (modifica a tuo piacimento) */
+}
+
+/* Stile per le righe dispari della tabella */
+tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Colore di sfondo per le righe dispari (modifica a tuo piacimento) */
+}
+
+/* Stile per le righe pari della tabella */
+tr:nth-child(even) {
+    background-color: #fff; /* Colore di sfondo per le righe pari (modifica a tuo piacimento) */
+}
+
+tr:first-child {
+    background-color: #3498db; /* Colore diverso per la prima riga (modifica a tuo piacimento) */
+    color: white; /* Cambia il colore del testo per garantire una buona leggibilità */
+}
+
+.rettangolo-grigio {
+    display: block; /* Imposta l'elemento come blocco */
+    width: 100%; /* Larghezza del rettangolo (modifica a tuo piacimento) */
+    height: 300px; /* Altezza del rettangolo (modifica a tuo piacimento) */
+    background-color: #ccc;
+    margin-top: 40px /* Colore di sfondo grigio (modifica a tuo piacimento) */
+}
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
