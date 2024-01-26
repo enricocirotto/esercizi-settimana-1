@@ -1,0 +1,157 @@
+/* Your styles here */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@300&display=swap');
+
+header {
+    background-color: black;
+    padding: 10%;
+    padding-top: 3%;
+    display: flex;
+            justify-content: center;
+            align-items: center;
+    
+    ; 
+                       
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 1.65;
+    color: #393d41;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    
+}
+
+.riduci-interlinea {
+    line-height: 1; 
+}
+
+.testo-blu {
+    color: #25a2c3;
+}
+
+p {
+    font-size: 1.3em; 
+}
+
+footer{
+    text-align: center;
+    align-items: center;
+    margin-top: 15%;
+   
+    background-color: #25a2c3; 
+    color: #fff; 
+    padding: 20px; 
+}
+
+
+.text-with-background {
+    width: 100%;
+    background-image: url('/images/banner.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textmargin {
+    
+    margin-top: 10%; 
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.textmarginp {
+    
+     
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.button {
+    display: block;
+    width: 150px; 
+    padding: 10px;
+    background-color: #f04c2f; 
+    color: #fff; 
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px; 
+    margin: 40px auto; 
+    cursor: pointer;
+}
+
+.text-with-margins {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.imaginetonda  {
+    margin: 15%;
+        overflow: hidden;
+        border-radius: 250px; 
+}
+
+.orange-container {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background-color:#f04c2f; 
+    color: #fff; 
+    padding: 20px; 
+}
+
+.container {
+    width: 90%; 
+    max-width: 100%;
+    margin: 10% auto;   
+    box-sizing: border-box; 
+    background-color: #ffffff;
+    border: 1px solid #dee1e3;
+    border-radius: 2%;
+    
+}
+
+.container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-top: 5%;
+}
+
+.contact-item {
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-item img {
+    margin-right: 10px; 
+    width: 30px; 
+    height: 30px;
+}
+
+hr{ 
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+a {
+    
+    color: inherit; 
+}
+
